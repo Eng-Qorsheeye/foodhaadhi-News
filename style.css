@@ -1,384 +1,105 @@
+/* qaybta qurxinta  */
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:cursive;
-  
-}
-
-.body{
-    background-color: blue;
-    text-align: center;
-}
-
-.nav{
-    background-color: rgb(43, 106, 243);
-    padding: 15px;
-    color: whitesmoke;
-    font-size: 23px;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    box-shadow:
-    inset 0 -3em 3em rgb(0 200 0 / 30%),
-    0 2px 0px 0px white,
-    0.3em 0.3em 1em rgba(8, 138, 224, 0.774);
-}
-
-.hero{
-    padding: 80px 20px 40px;
-    background-color: #0c59ff9a;
-    color: black;
-    text-align: center;
-    width: 100%;
-    box-shadow:
-    inset 
-    0 0 0 2px white,
-    0.4em 0.4em 1em rgba(8, 138, 224, 0.774);
-}
-
-.hero h2{
-    font-size: 27px;
-    margin-top: 20px;
-}
-.hero p{
-    font-size: 14px;
-    margin-top: 10px;
-    color:wheat;
-}
-
-.container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
-    gap: 20px;
-    padding: 20px;
-    max-width: 900px;
-    margin: 20px auto;
-    padding-top: 30px;
-}
-
-.grid-items{
-    background-color: #052247;
-    color: white;
-    padding: 18px;
-    border-radius: 10px;
-    font-size: 22px;
-    text-align: center;
-    text-transform: capitalize;
-     box-shadow:
-    inset 0 -3em 3em rgba(16, 53, 172, 0.3),
-    0 0 0 2px white,
-    0.3em 0.3em 1em rgba(112, 123, 197, 0.774);
-}
-
-.post-section{
-    max-width: 100%;
-    margin: 40px auto;
-    text-align: center;
-}
-.post-section h2{
-
-    font-size: 28px;
-    margin-bottom: 20px;
-    background-color: #1f4577;
-    color: aliceblue;
-    padding: 10px;
-    
-}
-
-.post-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(250px , 1fr ));
-    gap: 20px;
-}
-
-
-.post{
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-}
-.post h3{
-    font-size: 22px;
-    margin-bottom: 12px ;
-
-}
-.post img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    object-fit: cover;
-    max-height: 180px;
-
-}
-.post p{
-    font-size: 20px;
-    color: rgb(17, 16, 16);
-    margin-bottom: 12px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.readmore{
-    display: inline-block;
-    color: #052247;
-    margin-top: 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
-.readmore:hover{
-    text-decoration: underline;
-}
-
-
-
-/* qurxinta qaybta sadexaad */
-.post-section3{
-    max-width: 100%;
-    margin: 0px auto;
-    text-align: center;
-}
-/* .post-section3 h2{
-
-    font-size: 28px;
-    margin-bottom: 20px;
-    background-color: #1f4577;
-    color: aliceblue;
-    padding: 10px;
-    
-} */
-
-.post-container3{
-    display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(250px , 1fr ));
-    gap: 20px;
-}
-
-
-.post3{
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
+    /* background-color: #a3bbd6; */
     margin-top: 0;
-}
-.post3 h3{
-    font-size: 22px;
-    margin-bottom: 12px ;
-    margin-top: -50px;
-
-}
-.post3 img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    object-fit: cover;
-    max-height: 180px;
-
-}
-.post3 p{
-    font-size: 20px;
-    color: rgb(17, 16, 16);
-    margin-bottom: 12px;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.readmore{
-    display: inline-block;
-    color: #052247;
-    margin-top: 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
-.readmore:hover{
-    text-decoration: underline;
-}
-    
-    
-
-/* qaybta labaad iyo qurxinteeda */
-
-.nav2{
-    background-color: rgb(43, 106, 243);
-    padding: 15px;
-    color: whitesmoke;
-    font-size: 23px;
-    position: fixed;
-    width: 100%;
-    text-align: center;
    
 }
-
-.hero2{
-    padding: 80px 20px 40px;
-    background-color: #2b2a309a;
-    color: black;
-    text-align: center;
-    width: 100%;
-    box-shadow:
-    inset 0 -3em 3em rgb(0 200 0 / 30%),
-    0 0 0 2px white,
-    0.3em 0.3em 1em rgba(8, 138, 224, 0.774);
-}
-
-.hero2 h2{
-    font-size: 27px;
-    margin-top: 20px;
-}
-.hero2 p{
-    font-size: 14px;
-    margin-top: 10px;
-    color:wheat;
-}
-
-.container2{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
-    gap: 20px;
-    padding: 20px;
-    max-width: 900px;
-    margin: 20px auto;
-    padding-top: 30px;
-}
-
-.grid-items2{
-    background-color: #052247;
-    color: white;
-    padding: 18px;
-    border-radius: 10px;
-    font-size: 22px;
-    text-align: center;
-    text-transform: capitalize;
-     box-shadow:
-    inset 0 -3em 3em rgba(16, 53, 172, 0.3),
-    0 0 0 2px white,
-    0.3em 0.3em 1em rgba(112, 123, 197, 0.774);
-}
-
-.post-section2{
-    max-width: 100%;
-    margin: 40px auto;
-    text-align: center;
-}
-.post-section2 h2{
-
-    font-size: 28px;
-    margin-bottom: 20px;
-    background-color: #1f4577;
+ul ,li {
+    background-color: #021429;
     color: aliceblue;
     padding: 10px;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.menu{
+    position: fixed;
+    top:0;
+    right:0;
+    margin-right: 10px;
+    width: 50%;
+    
     
 }
 
-.post-container2{
-    display: grid;
-    grid-template-columns:  2fr 2fr;
-    gap :10px;
- 
+.portafiolo img , p{
+    width: 150px;
 }
+.portafiolo , .portafiolo1{
+    display: flex;
+    top: 20px;
+    justify-content:start;
 
 
-.post2{
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    margin:auto;
   
 }
-.post2 h3{
-    font-size: 18px;
-    margin-bottom: 12px ;
-    color: #052247;
-
-}
-.post2 img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    object-fit: cover;
-    max-height: 180px;
-
-}
-.post2 p{
-    font-size: 20px;
-    color: rgb(17, 16, 16);
-    margin-bottom: 12px;
-    font-family:'Times New Roman', Times, serif;
+.portafiolo1 img , p{
+    width: 150px;
 }
 
+.soft {
+    /* background-color: #011225; */
+    color:#021429;
+    width: 15%;
+    padding: 20px;
+    /* border-style: double; */
+}
+img ,h3 ,p{
+    background-color: none;
+  
+}
+.gra{
+    /* background-color: #011225; */
+    color:#021429;
+    width: 15%;
+    padding: 20px;
+  
+}
 
+#profile{
+    font-size: 30px;
+    color: #010b16;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    top:20px;
+    left:10px;
+    margin-bottom: 0px;
+}
+#skill {
+    /* background-color: #021429; */
+    color: rgb(233, 196, 129);
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 60%;
+    margin-bottom: 0;
+ 
+    width: 400px;
+    text-align: center;
+}
+button{
+     background-color: wheat;
+     color: #021429;
+     font-family: monospace;
+     font-weight: bold;
+     font-size: 10px;
+     text-align: center;
+     margin-top: 10px;
+     margin-left: 20px;
+     align-items: center;
+     border-radius: 20%;
+     box-shadow: #deeaf7;
+     width: 50px;
+}
 
-/* qaybta footerka  */
- footer {
-      background-color: #0a1a3c; /* Dark Blue */
-      color: white;
-      padding: 50px 20px 20px;
-    }
-
-    .footer-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 30px;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .footer-logo h2 {
-      margin: 0;
-      font-size: 24px;
-      color: #ffffff;
-    }
-
-    .footer-logo p {
-      margin: 10px 0 0;
-      color: #b0c4de;
-      font-size: 14px;
-    }
-
-    .footer-links ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .footer-links ul li {
-      margin: 8px 0;
-    }
-
-    .footer-links ul li a {
-      text-decoration: none;
-      color: #ffffff;
-      transition: 0.3s;
-    }
-
-    .footer-links ul li a:hover {
-      color: #1e90ff; /* Light Blue hover */
-    }
-
-    .social-icons a {
-      display: inline-block;
-      margin-right: 15px;
-      color: white;
-      font-size: 20px;
-      transition: 0.3s;
-    }
-    .social-icons img{
-        width: 20px;
-    }
-
-    .social-icons a:hover {
-      color: #1e90ff;
-    }
-
-    .footer-bottom {
-      text-align: center;
-      margin-top: 40px;
-      padding-top: 20px;
-      border-top: 1px solid #23395d;
-      font-size: 14px;
-      color: #b0c4de;
-    }
-
+header{
+    text-align: center;
+}
